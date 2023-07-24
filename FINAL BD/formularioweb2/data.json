@@ -1,0 +1,110 @@
+[ 
+    {
+        "marca":"Lavadora ",
+        "modelo": "LG TS1804NW Blanco",
+        "precio":249.00 ,
+        "img": "https://images.samsung.com/is/image/samsung/p6pim/pe/ww10ta046bx-pe/gallery/pe-front-loading-washer-ww80ta046aeef-ww10ta046bx-pe-536616914?$650_519_PNG$"     
+    },
+    {
+        "marca":"Microondas",
+        "modelo":"Cantante",
+        "precio": 429.00, 
+        "img": "https://images.samsung.com/is/image/samsung/pe_MS40J5133AT-PE_001_Front_black?$L1-Thumbnail$"
+    },
+    {
+        "marca":"Turbo Ventilador",
+        "modelo":"LG NeoChef 25 ",
+        "precio": 119.90 ,
+        "img": "https://www.pngmart.com/files/6/Electric-Fan-Transparent-Images-PNG.png"
+    },
+    {
+        "marca":"Teclado gamer",
+        "modelo":"mesajilgamer ",
+        "precio": 149.90 ,
+        "img": "https://mesajilgamer.com/wp-content/uploads/sites/7/2021/11/022788-1.png"
+    },
+    {
+        "marca":"Gabardina Beninos de mezcla de lana ",
+        "modelo":"Grandes ",
+        "precio": 139.90 ,
+        "img": "https://d1fufvy4xao6k9.cloudfront.net/feed/img/man_trenchcoat/311400/front.png"
+    },
+    {
+        "marca":"Laptop Lenovo",
+        "modelo":"Lenovo ",
+        "precio": 369.90 ,
+        "img": "https://www.lenovo.com/medias/lenovo-laptops-thinkbook-16-gen-4-intel-hero.png?context=bWFzdGVyfHJvb3R8MzQ1OTM2fGltYWdlL3BuZ3xoMjEvaGZkLzEzMjU1MTI1OTkxNDU0LnBuZ3xlMGJjMDAyZjIzYzczYmY0YTY3NTlmODcwMDJjZTBhMzg5M2VlMjFlNTNlZWJkZDMyNDA3MTdlNjc3NjhhZWY5"    },
+    {
+        "marca":"Pantalones",
+        "modelo":"Pogue ",
+        "precio": 79.90 ,
+        "img": "https://media.vogue.mx/photos/62878ad5677445e25dda009b/master/w_1600%2Cc_limit/workwear_040522_trousersmatteau.png"    },
+    {
+        "marca":"PC",
+        "modelo":"PC GAMING ",
+        "precio": 1619.90 ,
+        "img": "https://www.pcspecialist.es/images/cases/19050/h.png?1680778249"    },
+    {
+        "marca":"Turbo Ventilador",
+        "modelo":"LG NeoChef 25 ",
+        "precio": 119.90 ,
+        "img": "https://www.pngmart.com/files/6/Electric-Fan-Transparent-Images-PNG.png"    },
+    {
+        "marca":"Turbo Ventilador",
+        "modelo":"LG NeoChef 25 ",
+        "precio": 119.90 ,
+        "img": "https://www.pngmart.com/files/6/Electric-Fan-Transparent-Images-PNG.png"    },
+    {
+        "marca":"Cama",
+        "modelo":"Tempur ",
+        "precio": 339.90 ,
+        "img": "https://images.tempur.com/fit-in/640x640/third-party/products/mahe-49vghw.png"    },
+    {
+        "marca":"Turbo Ventilador",
+        "modelo":"LG NeoChef 25 ",
+        "precio": 119.90 ,
+        "img": "https://www.pngmart.com/files/6/Electric-Fan-Transparent-Images-PNG.png"    },
+    {
+        "marca":"Refrigeradora",
+        "modelo":"Samsung ",
+        "precio": 619.90 ,
+        "img": "https://images.samsung.com/is/image/samsung/pe-ref-sbs-rs5300-rs27t5561b1-pe-frontjetblack-thumb-203517029"    },
+    {
+        "marca":"Monitor",
+        "modelo":"Samsung ",
+        "precio": 135.90 ,
+        "img": "https://images.samsung.com/is/image/samsung/p6pim/pe/lf27t350fhlxpe/gallery/pe-t35f-lf27t350fhlxpe-348397999?$650_519_PNG$"    },
+    {
+        "marca":"Epson",
+        "modelo":"Ecotank ",
+        "precio": 429.90 ,
+        "img": "https://mediaserver.goepson.com/ImConvServlet/imconv/0b6b6f6b5bccbd9b2a89b0b1117c730e3bcab3a1/1200Wx1200H?use=banner&hybrisId=B2C&assetDescr=20Lio2_MBL_blk_01"    },
+    {
+        "marca":"Turbo Ventilador",
+        "modelo":"LG NeoChef 25 ",
+        "precio": 119.90 ,
+        "img": "https://www.pngmart.com/files/6/Electric-Fan-Transparent-Images-PNG.png"    },
+    {
+        "marca":"Microondas",
+        "modelo":"Samsung cHEFF",
+        "precio": 149.90 ,
+        "img": "https://images.samsung.com/is/image/samsung/pe-microwave-oven-solo-mg23j5133ag-mg23j5133ag-pe-frontblack-104858867?$650_519_PNG$"    
+    },
+    {
+        "marca":"Horno",
+        "modelo":"BOSCH PE ",
+        "precio": 209.90 ,
+        "img": "https://media3.bosch-home.com/Product_Shots/1600x900/MCSA01975329_HBA534BS0_FullSizeOven_Bosch_STP_EOX5_def.png"    },
+    {
+        "marca":"Arquivos",
+        "modelo":"Lvtexing ",
+        "precio": 199.90 ,
+        "img": "https://cdn.shopify.com/s/files/1/0451/2179/8306/products/WestMinsterFeatherSofa_1024x1024.png?v=1674666227"    },
+    {
+        "marca":"Televisor",
+        "modelo":"Samsung ",
+        "precio": 559.90 ,
+        "img": "https://images.samsung.com/is/image/samsung/p6pim/pe/qn65q65cagxpe/gallery/pe-qled-tv-qn65q65cagxpe-front-titanium-gray-536427525?$650_519_PNG$"    }
+
+
+]

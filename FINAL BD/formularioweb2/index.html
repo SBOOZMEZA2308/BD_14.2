@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css" class="re">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: gray;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="color: blueviolet;"><strong>REAL PLAZA PURUCHUCO</strong></a>
+          <img src="https://static.wikia.nocookie.net/logopedia/images/0/0f/RPPuruc.png" alt="" width="90px">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"></a>
+              </li>
+              <li class="nav-item">
+                <img src="data:image/png;base64,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" alt="" width="55">
+              </li>
+              <li class="nav-item">
+                <img src="https://images.falabella.com/v3/assets/blt7c5c2f2f888a7cc3/blt0549b7cf74ea32d6/Tottus@256px.png" alt="" width="55">
+                
+              </li>
+              <li class="nav-item">
+                <img src="data:image/jpeg;base64,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" alt=""  width="55" >
+              </li>
+              <br><br>
+            </ul>
+            <span class="navbar-text">
+                <!-- Inicio del modal Iniciar Sesion  -->
+     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+         Iniciar Sesion
+       </button>
+       
+       <!-- Modal -->
+       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel" style="color: red;">Iniciar Sesion</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form action="" class="mostrar" id="formulario">
+                    <div class="mb-3">
+                    <input type="email" id="txtEmail" placeholder="Ingresa tu email">
+                </div>
+                    
+                    <input type="password" id="txtPassword" placeholder="Ingresa tu password">
+                    <br><br>
+                    <input type="button" value="Registrar" id="btnRegistrar">
+                    <br><br>
+                    <input type="button" value="Ingresar" id="btnIngresar">
+                    <br><br>
+                    <img src="https://cdn.pixabay.com/photo/2021/12/10/16/37/facebook-6860914_1280.png" alt="" width="60">
+                    <br><br>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/1024px-Google_Chrome_icon_%28February_2022%29.svg.png" alt="" width="60" id="btnGoogle">
+                </form>
+           </div>
+         </div>
+       </div>
+     </div>
+
+
+     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+        Registrate
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+       <div class="modal-dialog">
+         <div class="modal-content">
+           <div class="modal-header">
+             <h5 class="modal-title" id="exampleModalLabel" style="color: red;">Registrate</h5>
+             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+           </div>
+           <div class="modal-body">
+               <form action="" class="mostrar" id="formulario">
+                   <div class="mb-3">
+                   <input type="email" id="txtEmail" placeholder="Ingresa tu email">
+               </div>
+                   
+                   <input type="password" id="txtPassword" placeholder="Ingresa tu password">
+                   <br><br>
+                   <input type="button" value="Registrar" id="btnRegistrar">
+                   <br><br>
+                   <input type="button" value="Ingresar" id="btnIngresar">
+                   <br><br>
+                   <img src="https://cdn.pixabay.com/photo/2021/12/10/16/37/facebook-6860914_1280.png" alt="" width="60">
+                   <br><br>
+                   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/1024px-Google_Chrome_icon_%28February_2022%29.svg.png" alt="" width="60" id="btnGoogle" >
+               </form>
+          </div>
+        </div>
+      </div>
+    </div>
+     </nav>
+     <header class="mostrar" id="formulario2">
+     <div  id="ahorita">
+     <img src="https://peruretail.sfo3.cdn.digitaloceanspaces.com/wp-content/uploads/real-plaza-puruchuco-2-1-1.png" alt="" width="280px" id="imgmall" style="text-align: center;">
+     <br><br>
+     <img src="https://comunidaria.com/wp-content/uploads/2019/11/PLAZAVEA-ABRE-SUS-PUERTAS-EN-REAL-PLAZA-PURUCHUCO-2.jpg" alt="" width="280px" id="img2"  >
+     <br><br>
+<img src="https://peruconstruye.net/wp-content/uploads/2019/11/foto2.jpg" alt="" width="280px" id="imgmall" style="text-align: center;">
+     <br><br>
+    </div>
+    <div style="border: solid2 2px; float: right; width: 320px; height: 600px; " id="ahora22"   >
+        <img src="https://live.staticflickr.com/65535/49066146477_9de38f343c_b.jpg" alt="" width="280px" id="imgmall" style="text-align: center;">
+        <br><br>
+        <img src="https://elcomercio.pe/resizer/0j7sT-KHfNF2lPGgHY-ooH0IW7Q=/1200x1200/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/MOTCOHECW5HLJILTZPOKJ5I6VE.jpg" alt="" width="280px" id="imgmall" style="text-align: center;">
+    </div>
+    <header style="text-align: center;"><h1 style="color: blueviolet;">Bienvenidos a Real Plaza "PURUCHUCO"</h1> </header>
+     <header style="border: solid 2px; text-align: center;" id="si" >
+     <h3 style="text-align: center;">
+      <div>
+        “Real Plaza de "puruchuco" ofrece a toda la zona de ate un ambiente amplio y de buena calidad y ofrecimiento de productos a sus clientes, de esa misma manera un entorno tanto familiar, como tambien para pasarla con amigos.
+          <br><br>
+          <h2 style="color: blueviolet;"><strong>¿QUIENES SOMOS?</strong></h2>
+          <br>
+          Real Plaza es una cadena de centros comerciales que opera en 13 ciudades del Perú. Junto a Plaza Center, es una de las dos marcas que opera Intercorp Shopping Malls, subsidiaria del conglomerado peruano Intercorp.
+     </h3>
+     
+    </header>
+</header>
+    
+     <br><br>
+
+
+    <div class="contenidoDeLaWeb ocultar" id="contenidoDeLaWeb">
+        <input type="button" value="Cerrar sesion" id="btnCerrarSesion">
+        <h3><STRong>PRODUCTOS  Real Plaza "Puruchuco"</STRong></h3>
+        <div id="acabemos">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Real_Plaza_logo_2019.png" alt="" width="280" >
+        <br><br>
+        <img src="https://i.ytimg.com/vi/QGnnu6VVHKI/maxresdefault.jpg" alt="" width="280">
+    </div>
+        <div class="resultado" id="resultado"></div>
+        <div id="comentarios">
+            <input type="text" placeholder="Escribe el Titulo" id="txtTitulo" style="background-color: rgb(162, 36, 212);">
+            <br><br>
+            <input type="text" placeholder="Escribe la descripcion" id="txtDescripcion" style="background-color: rgb(162, 36, 212);">
+            <br><br>
+            <input type="button" value="Publicar" id="btnPublicar" style="background-color: rgb(19, 164, 201);">
+            <ul id="imprimirComentariosEnPantalla"></ul>  
+        
+        </div>
+        
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"> </script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"> </script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"> </script>
+
+    <script src="main.js"></script>
+    
+</body>
+
+</html>

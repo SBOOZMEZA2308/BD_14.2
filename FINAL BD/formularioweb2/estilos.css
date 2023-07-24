@@ -1,0 +1,61 @@
+.ocultar{
+    display: none;
+}
+.mostrar {
+    display: block;
+}
+.producto{
+    text-align: center;
+    background-color: rgb(146, 66, 179);
+    margin: 10px;
+   
+    border-color:black ;
+    
+
+}
+.resultado {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.imgProducto{
+   width: 150px;
+   height: 190px;
+  
+
+    
+}
+#imgmall{
+    text-align: center;
+}
+#si{
+    width: 600px;
+    height: 600px;
+    background-color:rgb(122, 121, 121);
+    border-radius: 20px;
+    margin: 0 auto;
+    color: white;
+    text-align:start;
+    
+}
+#img2{
+    text-align: center;
+
+
+}
+#ahorita{
+    width: 320px;
+    height: 600px;
+    border-radius: 20px;
+    margin: 0 auto;
+    float: left;
+}
+#ahora22{
+    width: 320px;
+    height: 600px;
+    border-radius: 20px;
+    margin: 0 auto; 
+}
+#acabemos{
+    float: right;
+}
